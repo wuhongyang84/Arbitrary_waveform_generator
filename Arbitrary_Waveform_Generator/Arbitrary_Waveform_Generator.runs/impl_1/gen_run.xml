@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcsg324-1" LaunchTime="1596194730">
+  <File Type="BITSTR-BMM" Name="DDS_sun_bd.bmm"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="DDS_sun_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="DDS_sun_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR" Name="DDS_sun_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="DDS_sun.tcl"/>
+  <File Type="OPT-TIMING" Name="DDS_sun_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="DDS_sun_opt.dcp"/>
+  <File Type="ROUTE-PWR-SUM" Name="DDS_sun_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="DDS_sun_reports.tcl"/>
+  <File Type="OPT-DRC" Name="DDS_sun_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="DDS_sun.hwdef"/>
+  <File Type="PWROPT-DCP" Name="DDS_sun_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="DDS_sun_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="DDS_sun_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="DDS_sun_placed.dcp"/>
+  <File Type="PLACE-IO" Name="DDS_sun_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="DDS_sun_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="DDS_sun_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="DDS_sun_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="DDS_sun_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="DDS_sun_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="DDS_sun_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="DDS_sun.bgn"/>
+  <File Type="PLACE-TIMING" Name="DDS_sun_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="DDS_sun_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="DDS_sun.bin"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="DDS_sun_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="DDS_sun_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="DDS_sun_drc_physopted.rpt"/>
+  <File Type="BITSTR-MSK" Name="DDS_sun.msk"/>
+  <File Type="PHYSOPT-TIMING" Name="DDS_sun_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="DDS_sun_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="DDS_sun_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="DDS_sun_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="DDS_sun_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="DDS_sun_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="DDS_sun.ltx"/>
+  <File Type="ROUTE-DRC-RPX" Name="DDS_sun_drc_routed.rpx"/>
+  <File Type="BITSTR-MMI" Name="DDS_sun.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="DDS_sun_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="DDS_sun_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-SYSDEF" Name="DDS_sun.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="DDS_sun_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="DDS_sun_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="DDS_sun_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="DDS_sun_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="DDS_sun_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="DDS_sun_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="DDS_sun_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="DDS_sun_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="DDS_sun_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="DDS_sun_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="DDS_sun_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="DDS_sun_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="DDS_sun_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="DDS_sun_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="DDS_sun_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="DDS_sun_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="DDS_sun_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="DDS_sun_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="DDS_sun_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="DDS_sun.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="DDS_sun_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-RBT" Name="DDS_sun.rbt"/>
+  <File Type="BITSTR-NKY" Name="DDS_sun.nky"/>
+  <File Type="BG-DRC" Name="DDS_sun.drc"/>
+  <File Type="RDI-RDI" Name="DDS_sun.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/DDS_module.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/contral.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/detect_module.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rx_bps_module.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rx_control_module.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rx_moudle.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/DDS_sun.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sin.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/square.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/Triangle_Wave_Rom.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/sawtooth.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="DDS_sun"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/system.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TargetConstrsFile" Val="$PSRCDIR/constrs_1/new/system.xdc"/>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="triangle_rom"/>
+  <BlockFileSet Type="BlockSrcs" Name="sin_rom"/>
+  <BlockFileSet Type="BlockSrcs" Name="square_rom"/>
+  <BlockFileSet Type="BlockSrcs" Name="sawtooth_rom"/>
+</GenRun>

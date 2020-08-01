@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_dds_compiler_0_0/sim/dds_fir_dds_compiler_0_0.vhd" \
+"../../../../FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_dds_compiler_1_0/sim/dds_fir_dds_compiler_1_0.vhd" \
+"../../../../FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_mult_gen_0_0/sim/dds_fir_mult_gen_0_0.vhd" \
+"../../../../FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_fir_compiler_0_0/sim/dds_fir_fir_compiler_0_0.vhd" \
+
+# Do not sort compile order
+nosort

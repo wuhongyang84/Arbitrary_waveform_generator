@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../FIR_blog.ip_user_files/bd/dds_fir/sim/dds_fir.v" \
+"../../../../FIR_blog.srcs/sources_1/bd/dds_fir/hdl/dds_fir_wrapper.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

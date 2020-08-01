@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Jul 26 21:58:11 2020
+# Process ID: 15844
+# Current directory: C:/Xilinx/Project/Arbitrary Waveform Generator/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/sin_rom_synth_1
+# Command line: vivado.exe -log sin_rom.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source sin_rom.tcl
+# Log file: C:/Xilinx/Project/Arbitrary Waveform Generator/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/sin_rom_synth_1/sin_rom.vds
+# Journal file: C:/Xilinx/Project/Arbitrary Waveform Generator/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/sin_rom_synth_1\vivado.jou
+#-----------------------------------------------------------
+source sin_rom.tcl -notrace

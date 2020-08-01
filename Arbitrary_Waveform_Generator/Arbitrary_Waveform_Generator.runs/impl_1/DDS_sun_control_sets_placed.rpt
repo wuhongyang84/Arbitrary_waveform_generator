@@ -1,0 +1,104 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Fri Jul 31 19:26:08 2020
+| Host         : LAPTOP-G2EEK18B running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file DDS_sun_control_sets_placed.rpt
+| Design       : DDS_sun
+| Device       : xc7a35t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    37 |
+| Unused register locations in slices containing registers |   239 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           33 |
+|      4 |            1 |
+|      8 |            1 |
+|    16+ |            2 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              60 |           28 |
+| No           | Yes                   | No                     |               8 |            8 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |              52 |           18 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------------------+------------------------+--------------------------------+------------------+----------------+
+|           Clock Signal          |      Enable Signal     |        Set/Reset Signal        | Slice Load Count | Bel Load Count |
++---------------------------------+------------------------+--------------------------------+------------------+----------------+
+|  u6/Rom_Addr_reg[0]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[0]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[1]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[1]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[3]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[3]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[4]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[4]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[2]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[2]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[5]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[5]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[6]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[6]_LDC_i_2_n_2 |                1 |              1 |
+|  u6/Rom_Addr_reg[7]_LDC_i_1_n_2 |                        | u6/Rom_Addr_reg[7]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        |                                |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[0]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[0]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[1]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[3]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[3]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[4]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[4]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[1]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[6]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[2]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[2]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[5]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[7]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[6]_LDC_i_2_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[5]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[6]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                |                        | u6/Rom_Addr_reg[7]_LDC_i_1_n_2 |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[2]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[3]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[5]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[1]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[4]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[7]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/rData[0]_i_1_n_2 | u6/RESET                       |                1 |              1 |
+|  CLOCK_IBUF_BUFG                | u4/u2/i_1              | u6/RESET                       |                1 |              4 |
+|  CLOCK_IBUF_BUFG                | u4/u2/E[0]             | u6/RESET                       |                1 |              8 |
+|  CLOCK_IBUF_BUFG                | RESET_IBUF             | u6/RESET                       |                8 |             32 |
+|  CLOCK_IBUF_BUFG                |                        | u6/RESET                       |               12 |             44 |
++---------------------------------+------------------------+--------------------------------+------------------+----------------+
+
+

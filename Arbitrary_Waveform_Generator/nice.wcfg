@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="4518299926000fs"></ZoomStartTime>
+      <ZoomEndTime time="10233299926001fs"></ZoomEndTime>
+      <Cursor1Time time="5143275000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="195"></NameColumnWidth>
+      <ValueColumnWidth column_width="95"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="7" />
+   <wvobject fp_name="/tb/CLOCK" type="logic">
+      <obj_property name="ElementShortName">CLOCK</obj_property>
+      <obj_property name="ObjectShortName">CLOCK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_rx" type="logic">
+      <obj_property name="ElementShortName">data_rx</obj_property>
+      <obj_property name="ObjectShortName">data_rx</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/data_tx" type="array">
+      <obj_property name="ElementShortName">data_tx[7:0]</obj_property>
+      <obj_property name="ObjectShortName">data_tx[7:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/DA_DATA" type="array">
+      <obj_property name="ElementShortName">DA_DATA[7:0]</obj_property>
+      <obj_property name="ObjectShortName">DA_DATA[7:0]</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UU/u6/set" type="array">
+      <obj_property name="ElementShortName">set[3:0]</obj_property>
+      <obj_property name="ObjectShortName">set[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb/UU/u6/Type" type="array">
+      <obj_property name="ElementShortName">Type[1:0]</obj_property>
+      <obj_property name="ObjectShortName">Type[1:0]</obj_property>
+   </wvobject>
+</wave_config>

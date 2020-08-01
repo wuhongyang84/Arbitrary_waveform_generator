@@ -1,0 +1,14 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+C:/Xilinx/FIR_blog/FIR_blog.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sim_1/new/tb.v,1596129140,verilog,,,,tb,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/ip/c_addsub_0/sim/c_addsub_0.vhd,1596127669,vhdl,,,,c_addsub_0,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1596128986,vhdl,,,,dds_compiler_0,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/ip/dds_compiler_1/sim/dds_compiler_1.vhd,1596128956,vhdl,,,,dds_compiler_1,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/ip/mult_gen_0/sim/mult_gen_0.vhd,1596131087,vhdl,,,,mult_gen_0,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/clk_2khz.v,1596132266,verilog,,C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/dds.v,,clk_2khz,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/dds.v,1596127546,verilog,,C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/fir_contral.v,,dds,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/fir_contral.v,1596131220,verilog,,C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/fir_top.v,,fir_contral,,,,,,,,
+C:/Xilinx/FIR_blog/FIR_blog.srcs/sources_1/new/fir_top.v,1596132237,verilog,,C:/Xilinx/FIR_blog/FIR_blog.srcs/sim_1/new/tb.v,,fir_top,,,,,,,,

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Jul 31 19:20:03 2020
+# Process ID: 19664
+# Current directory: C:/Xilinx/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/synth_1
+# Command line: vivado.exe -log DDS_sun.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source DDS_sun.tcl
+# Log file: C:/Xilinx/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/synth_1/DDS_sun.vds
+# Journal file: C:/Xilinx/Arbitrary_Waveform_Generator/Arbitrary_Waveform_Generator.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source DDS_sun.tcl -notrace

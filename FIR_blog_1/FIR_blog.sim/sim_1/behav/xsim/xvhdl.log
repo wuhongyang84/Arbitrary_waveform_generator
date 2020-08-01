@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Project/FIR_blog/FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_dds_compiler_0_0/sim/dds_fir_dds_compiler_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_fir_dds_compiler_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Xilinx/Project/FIR_blog/FIR_blog.ip_user_files/bd/dds_fir/ip/dds_fir_dds_compiler_1_0/sim/dds_fir_dds_compiler_1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_fir_dds_compiler_1_0'
